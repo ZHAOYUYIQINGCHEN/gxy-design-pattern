@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gxy.design.pattern.factory.pizzaaf.indredient.BlackOlives</OriginalElement>
+  <nodes>
+    <node x="1166.0" y="1233.0">com.gxy.design.pattern.factory.pizzaaf.indredient.FreshClams</node>
+    <node x="551.0" y="0.0">com.gxy.design.pattern.factory.pizzaaf.pizza.Pizza</node>
+    <node x="874.0" y="1129.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Sauce</node>
+    <node x="396.0" y="1233.0">com.gxy.design.pattern.factory.pizzaaf.indredient.ThickCrustDough</node>
+    <node x="96.75" y="1129.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Cheese</node>
+    <node x="141.75" y="493.0">com.gxy.design.pattern.factory.pizzaaf.indredient.PizzaIngredientFactory</node>
+    <node x="8.0" y="1332.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Pepperoni</node>
+    <node x="0.0" y="348.0">com.gxy.design.pattern.factory.pizzaaf.pizza.PepperoniPizza</node>
+    <node x="495.0" y="1129.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Dough</node>
+    <node x="785.0" y="1233.0">com.gxy.design.pattern.factory.pizzaaf.indredient.MarinaraSauce</node>
+    <node x="975.0" y="348.0">com.gxy.design.pattern.factory.pizzaaf.pizza.VeggiePizza</node>
+    <node x="576.0000000000002" y="623.3515850144092">com.gxy.design.pattern.factory.pizzaaf.store.ChicagoPizzaStore</node>
+    <node x="510.0" y="1030.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Mushroom</node>
+    <node x="0.0" y="1436.0">com.gxy.design.pattern.factory.pizzaaf.indredient.SlicedPepperoni</node>
+    <node x="850.0" y="1030.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Onion</node>
+    <node x="802.0" y="619.0">com.gxy.design.pattern.factory.pizzaaf.store.NYPizzaStore</node>
+    <node x="340.0" y="1030.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Eggplant</node>
+    <node x="325.0" y="348.0">com.gxy.design.pattern.factory.pizzaaf.pizza.ClamPizza</node>
+    <node x="0.0" y="1233.0">com.gxy.design.pattern.factory.pizzaaf.indredient.ReggianoCheese</node>
+    <node x="582.0" y="1233.0">com.gxy.design.pattern.factory.pizzaaf.indredient.ThinCrustDough</node>
+    <node x="0.0" y="707.0">com.gxy.design.pattern.factory.pizzaaf.indredient.NYPizzaIngredientFactory</node>
+    <node x="178.0" y="1233.0">com.gxy.design.pattern.factory.pizzaaf.indredient.MozzarellaCheese</node>
+    <node x="511.4505283381368" y="907.2968299711816">com.gxy.design.pattern.factory.pizzaaf.indredient.Veggies</node>
+    <node x="1020.0" y="1030.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Garlic</node>
+    <node x="1251.0" y="1129.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Clams</node>
+    <node x="1336.0" y="1233.0">com.gxy.design.pattern.factory.pizzaaf.indredient.FrozenClams</node>
+    <node x="256.0" y="707.0">com.gxy.design.pattern.factory.pizzaaf.indredient.ChicagoPizzaIngredientFactory</node>
+    <node x="955.0" y="1233.0">com.gxy.design.pattern.factory.pizzaaf.indredient.PlumTomatoSauce</node>
+    <node x="170.0" y="1030.0">com.gxy.design.pattern.factory.pizzaaf.indredient.Spinach</node>
+    <node x="650.0" y="348.0">com.gxy.design.pattern.factory.pizzaaf.pizza.CheesePizza</node>
+    <node x="689.0" y="493.0">com.gxy.design.pattern.factory.pizzaaf.store.PizzaStore</node>
+    <node x="0.0" y="1030.0">com.gxy.design.pattern.factory.pizzaaf.indredient.BlackOlives</node>
+    <node x="211.0" y="1332.0">com.gxy.design.pattern.factory.pizzaaf.PizzaTestDrive</node>
+    <node x="680.0" y="1030.0">com.gxy.design.pattern.factory.pizzaaf.indredient.RedPepper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.FreshClams" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Clams">
+      <point x="0.0" y="-27.0" />
+      <point x="1241.0" y="1208.0" />
+      <point x="1288.5" y="1208.0" />
+      <point x="-37.5" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.ChicagoPizzaIngredientFactory" target="com.gxy.design.pattern.factory.pizzaaf.indredient.PizzaIngredientFactory">
+      <point x="0.0" y="-82.0" />
+      <point x="393.5" y="682.0" />
+      <point x="312.75" y="682.0" />
+      <point x="57.0" y="82.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.MarinaraSauce" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Sauce">
+      <point x="0.0" y="-27.0" />
+      <point x="860.0" y="1208.0" />
+      <point x="911.5" y="1208.0" />
+      <point x="-37.5" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.ReggianoCheese" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Cheese">
+      <point x="0.0" y="-27.0" />
+      <point x="79.0" y="1208.0" />
+      <point x="134.25" y="1208.0" />
+      <point x="-37.5" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.ThinCrustDough" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Dough">
+      <point x="0.0" y="-27.0" />
+      <point x="661.0" y="1208.0" />
+      <point x="607.5" y="1208.0" />
+      <point x="37.5" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.Eggplant" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Veggies">
+      <point x="0.0" y="-27.0" />
+      <point x="415.0" y="1010.0" />
+      <point x="563.5714285714286" y="1010.0" />
+      <point x="-21.428571428571445" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.Onion" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Veggies">
+      <point x="0.0" y="-27.0" />
+      <point x="925.0" y="1000.0" />
+      <point x="627.8571428571429" y="1000.0" />
+      <point x="42.85714285714289" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.Mushroom" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Veggies">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.PlumTomatoSauce" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Sauce">
+      <point x="0.0" y="-27.0" />
+      <point x="1038.0" y="1208.0" />
+      <point x="986.5" y="1208.0" />
+      <point x="37.5" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.store.ChicagoPizzaStore" target="com.gxy.design.pattern.factory.pizzaaf.store.PizzaStore">
+      <point x="0.0" y="-27.0" />
+      <point x="679.0" y="594.0" />
+      <point x="740.5" y="594.0" />
+      <point x="-51.5" y="38.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.ThickCrustDough" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Dough">
+      <point x="0.0" y="-27.0" />
+      <point x="479.0" y="1208.0" />
+      <point x="532.5" y="1208.0" />
+      <point x="-37.5" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.NYPizzaIngredientFactory" target="com.gxy.design.pattern.factory.pizzaaf.indredient.PizzaIngredientFactory">
+      <point x="0.0" y="-82.0" />
+      <point x="118.0" y="682.0" />
+      <point x="198.75" y="682.0" />
+      <point x="-57.0" y="82.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.store.NYPizzaStore" target="com.gxy.design.pattern.factory.pizzaaf.store.PizzaStore">
+      <point x="0.0" y="-27.0" />
+      <point x="905.0" y="594.0" />
+      <point x="843.5" y="594.0" />
+      <point x="51.5" y="38.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.Garlic" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Veggies">
+      <point x="0.0" y="-27.0" />
+      <point x="1095.0" y="990.0" />
+      <point x="649.2857142857143" y="990.0" />
+      <point x="64.28571428571433" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.RedPepper" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Veggies">
+      <point x="0.0" y="-27.0" />
+      <point x="755.0" y="1010.0" />
+      <point x="606.4285714285714" y="1010.0" />
+      <point x="21.428571428571445" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.pizza.CheesePizza" target="com.gxy.design.pattern.factory.pizzaaf.pizza.Pizza">
+      <point x="0.0" y="-50.0" />
+      <point x="802.5" y="328.0" />
+      <point x="662.25" y="328.0" />
+      <point x="22.25" y="149.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.SlicedPepperoni" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Pepperoni">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.pizza.PepperoniPizza" target="com.gxy.design.pattern.factory.pizzaaf.pizza.Pizza">
+      <point x="0.0" y="-50.0" />
+      <point x="152.5" y="318.0" />
+      <point x="573.25" y="318.0" />
+      <point x="-66.75" y="149.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.pizza.VeggiePizza" target="com.gxy.design.pattern.factory.pizzaaf.pizza.Pizza">
+      <point x="0.0" y="-50.0" />
+      <point x="1127.5" y="318.0" />
+      <point x="706.75" y="318.0" />
+      <point x="66.75" y="149.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.pizza.ClamPizza" target="com.gxy.design.pattern.factory.pizzaaf.pizza.Pizza">
+      <point x="0.0" y="-50.0" />
+      <point x="477.5" y="328.0" />
+      <point x="617.75" y="328.0" />
+      <point x="-22.25" y="149.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.MozzarellaCheese" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Cheese">
+      <point x="0.0" y="-27.0" />
+      <point x="264.5" y="1208.0" />
+      <point x="209.25" y="1208.0" />
+      <point x="37.5" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.BlackOlives" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Veggies">
+      <point x="0.0" y="-27.0" />
+      <point x="75.0" y="990.0" />
+      <point x="520.7142857142858" y="990.0" />
+      <point x="-64.28571428571422" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.Spinach" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Veggies">
+      <point x="0.0" y="-27.0" />
+      <point x="245.0" y="1000.0" />
+      <point x="542.1428571428571" y="1000.0" />
+      <point x="-42.85714285714289" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.factory.pizzaaf.indredient.FrozenClams" target="com.gxy.design.pattern.factory.pizzaaf.indredient.Clams">
+      <point x="0.0" y="-27.0" />
+      <point x="1411.0" y="1208.0" />
+      <point x="1363.5" y="1208.0" />
+      <point x="37.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3894039735099338" x="743.0" y="745.0" />
+  <SelectedNodes>
+    <node>com.gxy.design.pattern.factory.pizzaaf.indredient.BlackOlives</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

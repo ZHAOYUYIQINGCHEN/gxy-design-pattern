@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gxy.design.pattern.observer.bulidIn.WeatherData</OriginalElement>
+  <nodes>
+    <node x="522.0" y="0.0">java.util.Observer</node>
+    <node x="389.25" y="104.0">com.gxy.design.pattern.observer.bulidIn.CurrentConditionsDisplay</node>
+    <node x="344.0" y="0.0">com.gxy.design.pattern.observer.custom.DisplayElement</node>
+    <node x="28.0" y="0.0">java.util.Observable</node>
+    <node x="0.0" y="348.0">com.gxy.design.pattern.observer.bulidIn.WeatherData</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gxy.design.pattern.observer.bulidIn.CurrentConditionsDisplay" target="com.gxy.design.pattern.observer.custom.DisplayElement">
+      <point x="-73.25" y="-83.0" />
+      <point x="462.5" y="79.0" />
+      <point x="423.0" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.observer.bulidIn.WeatherData" target="java.util.Observable">
+      <point x="0.0" y="-83.0" />
+      <point x="0.0" y="149.0" />
+    </edge>
+    <edge source="com.gxy.design.pattern.observer.bulidIn.CurrentConditionsDisplay" target="java.util.Observer">
+      <point x="73.25" y="-83.0" />
+      <point x="609.0" y="79.0" />
+      <point x="648.5" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="387.5" y="257.0" />
+  <SelectedNodes>
+    <node>java.util.Observable</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
